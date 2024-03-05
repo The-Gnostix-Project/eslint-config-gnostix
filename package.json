@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-gnostix",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "*Gnostix* Version of *Google* JavaScript Style *Guide*, or simply put, 'G3'",
   "module": "index.js",
   "types": "index.d.ts",
@@ -15,12 +15,12 @@
   "author": "Ivor Ling <ivor@gnostix.app> (https://ivor.gnostix.app/)",
   "license": "MIT",
   "peerDependencies": {
-    "eslint-plugin-jsdoc": "^48.2.0",
     "eslint": "^8.57.0"
   },
-  "dependencies": {
-    "@eslint/eslintrc": "^3.0.2",
+  "devDependencies": {
     "@eslint/js": "^8.57.0",
+    "@eslint/eslintrc": "^3.0.2",
+    "eslint-plugin-jsdoc": "^48.2.0",
     "eslint-config-google": "^0.14.0"
   }
 }

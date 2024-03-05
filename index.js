@@ -1,3 +1,4 @@
+import jsdoc from "eslint-plugin-jsdoc"
 export default [
     { // eslint:recommended v8.57.0
     rules: {
@@ -64,63 +65,7 @@ export default [
       'valid-typeof': 'error'
     }
   },
-  { // plugin:jsdoc/recommended v48.2.0
-    rules: {
-      'jsdoc/check-access': 'warn',
-      'jsdoc/check-alignment': 'warn',
-      'jsdoc/check-examples': 'off',
-      'jsdoc/check-indentation': 'off',
-      'jsdoc/check-line-alignment': 'off',
-      'jsdoc/check-param-names': 'warn',
-      'jsdoc/check-property-names': 'warn',
-      'jsdoc/check-syntax': 'off',
-      'jsdoc/check-tag-names': 'warn',
-      'jsdoc/check-types': 'warn',
-      'jsdoc/check-values': 'warn',
-      'jsdoc/empty-tags': 'warn',
-      'jsdoc/implements-on-classes': 'warn',
-      'jsdoc/imports-as-dependencies': 'off',
-      'jsdoc/informative-docs': 'off',
-      'jsdoc/match-description': 'off',
-      'jsdoc/match-name': 'off',
-      'jsdoc/multiline-blocks': 'warn',
-      'jsdoc/no-bad-blocks': 'off',
-      'jsdoc/no-blank-block-descriptions': 'off',
-      'jsdoc/no-blank-blocks': 'off',
-      'jsdoc/no-defaults': 'warn',
-      'jsdoc/no-missing-syntax': 'off',
-      'jsdoc/no-multi-asterisks': 'warn',
-      'jsdoc/no-restricted-syntax': 'off',
-      'jsdoc/no-types': 'off',
-      'jsdoc/no-undefined-types': 'warn',
-      'jsdoc/require-asterisk-prefix': 'off',
-      'jsdoc/require-description': 'off',
-      'jsdoc/require-description-complete-sentence': 'off',
-      'jsdoc/require-example': 'off',
-      'jsdoc/require-file-overview': 'off',
-      'jsdoc/require-hyphen-before-param-description': 'off',
-      'jsdoc/require-jsdoc': 'warn',
-      'jsdoc/require-param': 'warn',
-      'jsdoc/require-param-description': 'warn',
-      'jsdoc/require-param-name': 'warn',
-      'jsdoc/require-param-type': 'warn',
-      'jsdoc/require-property': 'warn',
-      'jsdoc/require-property-description': 'warn',
-      'jsdoc/require-property-name': 'warn',
-      'jsdoc/require-property-type': 'warn',
-      'jsdoc/require-returns': 'warn',
-      'jsdoc/require-returns-check': 'warn',
-      'jsdoc/require-returns-description': 'warn',
-      'jsdoc/require-returns-type': 'warn',
-      'jsdoc/require-throws': 'off',
-      'jsdoc/require-yields': 'warn',
-      'jsdoc/require-yields-check': 'warn',
-      'jsdoc/sort-tags': 'off',
-      'jsdoc/tag-lines': 'warn',
-      'jsdoc/text-escaping': 'off',
-      'jsdoc/valid-types': 'warn'
-    }
-  },
+  jsdoc.configs['flat/recommended'],
   { // google JavaScript Style Guide v0.14.0, see ./src.js
     rules: {
       'no-cond-assign': 0,

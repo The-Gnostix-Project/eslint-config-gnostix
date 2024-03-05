@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-gnostix",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "*Gnostix* Version of *Google* JavaScript Style *Guide*, or simply put, 'G3'",
   "module": "index.js",
   "types": "index.d.ts",
@@ -20,7 +20,9 @@
   "devDependencies": {
     "@eslint/js": "^8.57.0",
     "@eslint/eslintrc": "^3.0.2",
-    "eslint-plugin-jsdoc": "^48.2.0",
     "eslint-config-google": "^0.14.0"
+  },
+  "dependencies":{
+    "eslint-plugin-jsdoc": "^48.2.0"
   }
 }

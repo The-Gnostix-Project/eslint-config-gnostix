@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-gnostix",
+  "version": "1.0.1",
+  "description": "*Gnostix* Version of *Google* JavaScript Style *Guide*, or simply put, 'G3'",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo Why not Google: \"How to test a config repo without runnable files\" ¯\\_(ツ)_/¯"
+  },
+  "keywords": [
+    "gnostix",
+    "eslint"
+  ],
+  "type": "module",
+  "author": "Ivor Ling <ivor@gnostix.app> (https://ivor.gnostix.app/)",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint-plugin-jsdoc": "^48.2.0",
+    "eslint": "^8.57.0"
+  },
+  "dependencies": {
+    "@eslint/eslintrc": "^3.0.2",
+    "@eslint/js": "^8.57.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
